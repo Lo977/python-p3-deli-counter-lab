@@ -1,4 +1,4 @@
-katz_deli=[]
+katz_deli=[2]
 
 def line(katz_deli):
     if not katz_deli:
@@ -7,6 +7,8 @@ def line(katz_deli):
         messege = "The line is currently:"
         for i in range(len(katz_deli)):
              messege += f" {i + 1}. {katz_deli[i]}"
+            #  print(i+1)
+            #  print(katz_deli[i])
         print(messege)
 
   
